@@ -15,10 +15,10 @@
  * =============================================================================
  */
 
- const path = require('path');
+const path = require("path");
 
- module.exports = {
-   entry: './client.js',
-   output: {path: path.resolve(__dirname, 'dist'), filename: 'bundle.js'},
-   devServer: {historyApiFallback: true, host: '0.0.0.0'}
- };
+module.exports = {
+  entry: "./client.js",
+  output: { path: path.resolve(__dirname, "/public/dist"), filename: "bundle.js" },
+  devServer: { historyApiFallback: true, host: "0.0.0.0" },
+};
